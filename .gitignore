@@ -1,0 +1,101 @@
+# Unity プロジェクトのパスを指定
+VN_Soturon/[Ll]ibrary/
+VN_Soturon/[Tt]emp/
+VN_Soturon/[Oo]bj/
+VN_Soturon/[Bb]uild/
+VN_Soturon/[Bb]uilds/
+VN_Soturon/[Ll]ogs/
+VN_Soturon/[Uu]ser[Ss]ettings/
+
+# metaファイルの管理（必ずバージョン管理に含める）
+!VN_Soturon/[Aa]ssets/**/*.meta
+
+# VSCode
+VN_Soturon/.vscode/
+
+# MemoryCaptures
+VN_Soturon/[Mm]emoryCaptures/
+
+# Recordings
+VN_Soturon/[Rr]ecordings/
+
+# Asset Store tools
+VN_Soturon/[Aa]ssets/AssetStoreTools*
+
+# Rider
+VN_Soturon/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio
+VN_Soturon/.vs/
+
+# Gradle
+VN_Soturon/.gradle/
+
+# 自動生成されるプロジェクトファイル
+VN_Soturon/*.csproj
+VN_Soturon/*.unityproj
+VN_Soturon/*.sln
+VN_Soturon/*.suo
+VN_Soturon/*.tmp
+VN_Soturon/*.user
+VN_Soturon/*.userprefs
+VN_Soturon/*.pidb
+VN_Soturon/*.booproj
+VN_Soturon/*.svd
+VN_Soturon/*.pdb
+VN_Soturon/*.mdb
+VN_Soturon/*.opendb
+VN_Soturon/*.VC.db
+
+# Unity3D生成メタファイル
+VN_Soturon/*.pidb.meta
+VN_Soturon/*.pdb.meta
+VN_Soturon/*.mdb.meta
+
+# クラッシュレポート
+VN_Soturon/sysinfo.txt
+
+# ビルド
+VN_Soturon/*.apk
+VN_Soturon/*.aab
+VN_Soturon/*.unitypackage
+VN_Soturon/*.app
+
+# Crashlytics
+VN_Soturon/crashlytics-build.properties
+
+# Addressables
+VN_Soturon/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# StreamingAssets
+VN_Soturon/[Aa]ssets/[Ss]treamingAssets/*
+!VN_Soturon/[Aa]ssets/[Ss]treamingAssets/.gitkeep
+!VN_Soturon/[Aa]ssets/[Ss]treamingAssets/*.meta
+
+# 一時的なDLLファイル
+VN_Soturon/TempAssembly.dll
+
+# OS generated files
+VN_Soturon/**/.DS_Store
+VN_Soturon/**/.DS_Store?
+VN_Soturon/**/._*
+VN_Soturon/**/.Spotlight-V100
+VN_Soturon/**/.Trashes
+VN_Soturon/**/ehthumbs.db
+VN_Soturon/**/Thumbs.db
+
+# バックアップファイル
+VN_Soturon/**/*.bak
+VN_Soturon/**/*.backup
+VN_Soturon/**/*~
+
+# WebGL build (必要な場合)
+VN_Soturon/[Ww]ebGL/
+VN_Soturon/*.symbols.zip
+
+# パッケージ関連
+VN_Soturon/Packages/packages-lock.json
+
+# プロジェクト固有の一時ファイル
+VN_Soturon/[Cc]ustom[Cc]ache/
+VN_Soturon/[Tt]emp[Dd]ata/

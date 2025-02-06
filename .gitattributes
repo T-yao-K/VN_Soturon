@@ -1,0 +1,55 @@
+# Unity assets
+VN_Soturon/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.FBX filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.obj filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.OBJ filter=lfs diff=lfs merge=lfs -text
+# Images
+VN_Soturon/**/*.png filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.gif filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.psd filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.ai filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.tif filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.tiff filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.tga filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.exr filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.hdr filter=lfs diff=lfs merge=lfs -text
+# Audio
+VN_Soturon/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.wav filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.aif filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.aiff filter=lfs diff=lfs merge=lfs -text
+# Video
+VN_Soturon/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.mov filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.avi filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.webm filter=lfs diff=lfs merge=lfs -text
+# 3D Objects
+VN_Soturon/**/*.3ds filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.max filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.blend filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.dae filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.mb filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.ma filter=lfs diff=lfs merge=lfs -text
+# Unity specific
+VN_Soturon/**/*.unitypackage filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.cubemap filter=lfs diff=lfs merge=lfs -text
+# Documents
+VN_Soturon/**/*.pdf filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.zip filter=lfs diff=lfs merge=lfs -text
+VN_Soturon/**/*.dll filter=lfs diff=lfs merge=lfs -text
+# Unity text files (ensure proper line endings)
+VN_Soturon/**/*.json text eol=lf
+VN_Soturon/**/*.meta text eol=lf
+VN_Soturon/**/*.unity text eol=lf
+VN_Soturon/**/*.asset text eol=lf
+VN_Soturon/**/*.prefab text eol=lf
+VN_Soturon/**/*.mat text eol=lf
+VN_Soturon/**/*.anim text eol=lf
+VN_Soturon/**/*.controller text eol=lf
+VN_Soturon/**/*.cs text eol=lf diff=csharp
+# Force bash scripts to use lf
+VN_Soturon/**/*.sh text eol=lf
+*.asset filter=lfs diff=lfs merge=lfs -text
